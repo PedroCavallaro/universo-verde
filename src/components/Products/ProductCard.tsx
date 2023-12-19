@@ -2,7 +2,7 @@
 
 import { twMerge } from "tailwind-merge";
 import { Button } from "../Button";
-import { useModal } from "@/app/context/ModalContext";
+import { useModal } from "@/context/ModalContext";
 
 interface ProductCardProps {
     isBigger: boolean;

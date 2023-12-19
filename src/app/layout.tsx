@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Judson } from "next/font/google";
-import Header from "./components/Header/Header";
-import { Providers } from "./providers/Providers";
+import Header from "../components/Header/Header";
+import { Providers } from "../providers/Providers";
 
 const inter = Inter({ subsets: ["latin"] });
 const judson = Judson({

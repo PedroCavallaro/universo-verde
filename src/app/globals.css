@@ -1,16 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* .hero-gradient {
-    background: linear-gradient(
-        90deg,
-        #c1e3bc 9.04%,
-        #acefa1 23.07%,
-        rgba(170, 245, 157, 0.91) 55.8%,
-        #7cff67 99.95%
-    );
-} */
-/* .hero-gradient {
-    background: linear-gradient(to right, rgb(187, 247, 208), rgb(34, 197, 94));
-} */

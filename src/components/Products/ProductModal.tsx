@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Button } from "../Button";
-import { useModal } from "@/app/context/ModalContext";
+import { useModal } from "@/context/ModalContext";
 
 export default function ProductModal() {
     const { isOpen, handleModal } = useModal();

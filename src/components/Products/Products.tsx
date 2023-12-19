@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bricks from "../../../../public/bricks.svg";
+import bricks from "../../../public/bricks.svg";
 import ProductRow from "./ProductRow";
 import ProductCard from "./ProductCard";
 
