@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header className="flex shadow-xl  px-20 h-[100px] gap-28 items-center text-lg bg-lime-100 ">
-            <div className="flex justify-between w-full px-12">
+            <div className="ml-[10rem] flex justify-between w-[80%] px-12">
                 <h1>Logo</h1>
                 <nav>
                     <ul className="flex gap-4 relative ml-20">
