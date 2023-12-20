@@ -31,7 +31,9 @@ export default function About({
                         </Button>
                     </div>
                 </div>
-                <div className=" lg:h-full h-[15rem] lg:w-[50%] bg-black"></div>
+                <div className=" lg:h-full h-[15rem] lg:w-[50%] bg-black">
+                    <p className="text-white">Video ou foto do trabalho</p>
+                </div>
                 <Image
                     src={bricks}
                     alt="a"

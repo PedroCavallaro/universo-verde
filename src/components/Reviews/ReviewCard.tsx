@@ -4,7 +4,7 @@ export default function ReviewCard() {
     return (
         <>
             <div className="relative flex flex-col items-center justify-center  gap-2 px-10 mt-10 h-[30rem] w-[20rem] bg-lime-100 rounded-tl-[3rem] rounded-br-[3rem]">
-                <p className="text-xl mt-20 text-black">Nome</p>
+                <p className="lg:text-xl text-sm mt-20 text-black">Nome</p>
                 <p>
                     {`" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt accusamus dicta facilis rerum, ipsam voluptatem nisi id obcaecati maxime, dolores molestias. Totam ipsum animi fuga aspernatur quis voluptate excepturi impedit?
         Repellat quo itatis s ducimus optio eum? Corporis, deleniti aliquid

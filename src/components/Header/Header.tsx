@@ -22,15 +22,15 @@ export default function Header({
                         </li>
                         <li
                             className="cursor-pointer hover:text-zinc-500 select-none"
-                            onClick={() => scrollTo(1)}
+                            onClick={() => scrollTo(2)}
                         >
                             Sobre nós
                         </li>
                         <li
                             className="cursor-pointer hover:text-zinc-500 select-none"
-                            onClick={() => scrollTo(2)}
+                            onClick={() => scrollTo(1)}
                         >
-                            Contato
+                            Galeria
                         </li>
                     </ul>
                 </nav>

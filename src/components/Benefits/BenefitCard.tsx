@@ -1,15 +1,20 @@
+import { ReactNode } from "react";
 import { FaStar } from "react-icons/fa";
-export default function BenefitCard() {
+
+interface BeneftiCardProps {
+    title: string;
+    text: string;
+    icon: ReactNode;
+}
+
+export default function BenefitCard({ icon, text, title }: BeneftiCardProps) {
     return (
-        <div className="w-[20rem] shadow-[_6px_6px_15px_0px_rgba(0,0,0,0.5)] flex flex-col gap-4 bg-slate-100 rounded-md p-2">
-            <div className="rounded-lg bg-green-500 w-10 flex justify-center items-center h-10">
-                <FaStar color={"#FFFFFF"} size={25} />
+        <div className="lg:w-[20rem] w-[20rem] shadow-[_6px_6px_15px_0px_rgba(0,0,0,0.5)] flex flex-col gap-4 lg:h-fit bg-slate-100 rounded-md p-2">
+            <div className="rounded-lg bg-green-500 lg:w-10 flex justify-center items-center lg:h-10 h-10 w-10">
+                {icon}
             </div>
-            <p className="text-lg font-bold">Produtos originais</p>
-            <p className="text-md">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                enim ratione corrupti atque praesentium
-            </p>
+            <p className="text-lg font-bold">{title}</p>
+            <p className="lg:text-md text-sm">{text}</p>
         </div>
     );
 }

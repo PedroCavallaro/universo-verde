@@ -9,13 +9,16 @@ export default function Gallery({
     galleryRef: MutableRefObject<HTMLDivElement | null>;
 }) {
     return (
-        <Section addclass="flex-col gap-10">
-            <h2 ref={galleryRef} className="text-3xl flex gap-2 font-extrabold">
+        <Section addclass="flex-col lg:gap-10 gap-4">
+            <h2
+                ref={galleryRef}
+                className="text-3xl flex lg:flex-row flex-col gap-2 font-extrabold"
+            >
                 Veja mais no nosso
                 <p className="text-green-500">Instagram</p>
             </h2>
 
-            <div className="flex flex-wrap gap-10">
+            <div className="grid grid-cols-2 lg:grid-cols-3 grid-rows-2 lg:gap-10 gap-2 gap-y-2">
                 <GalleryCard />
                 <GalleryCard />
                 <GalleryCard />
