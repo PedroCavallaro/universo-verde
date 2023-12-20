@@ -11,7 +11,12 @@ import Header from "../components/Header/Header";
 import { useScroll } from "@/hooks/useScroll";
 
 export default function Home() {
-    const { aboutRef, contactRef, productRef, handleClick } = useScroll();
+    const {
+        aboutRef,
+        contactRef: galleryRef,
+        productRef,
+        handleClick,
+    } = useScroll();
     return (
         <>
             <Header handleClick={handleClick} />
@@ -22,7 +27,7 @@ export default function Home() {
                 <About aboutRef={aboutRef} />
                 <Benefits />
                 <Reviews />
-                <Gallery />
+                <Gallery galleryRef={galleryRef} />
                 <Footer />
             </main>
         </>

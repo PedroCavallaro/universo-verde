@@ -20,10 +20,10 @@ export default function Hero() {
                         <div className="mt-10 flex flex-col gap-5 ">
                             <h2 className="text-lg text-center">
                                 Transforme o ambiente com a{" "}
-                                <h3 className="flex gap-[0.3rem]">
+                                <span className="flex gap-[0.3rem]">
                                     <p className="">energia da </p>
                                     <p className="text-emerald-400">natureza</p>
-                                </h3>
+                                </span>
                             </h2>
                             <Button className="rounded-full bg-white text-black px-2 text-lg hover:bg-emerald-400 hover:text-white transition-all">
                                 <p>Faça sua encomenda</p>
