@@ -15,6 +15,15 @@ module.exports = {
             fontFamily: {
                 title: "var(--font-title)",
             },
+            keyframes: {
+                drop: {
+                    "0%": { top: "-4rem" },
+                    "100%": { top: "0px" },
+                },
+            },
+            animation: {
+                drop: "drop 0.5s",
+            },
         },
     },
     plugins: [],

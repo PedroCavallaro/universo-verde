@@ -12,7 +12,7 @@ export default function Gallery({
         <Section addclass="flex-col lg:gap-10 gap-4">
             <h2
                 ref={galleryRef}
-                className="text-3xl flex lg:flex-row flex-col gap-2 font-extrabold"
+                className="lg:text-3xl text-2xl flex lg:flex-row flex-col gap-2 font-extrabold"
             >
                 Veja mais no nosso
                 <p className="text-green-500">Instagram</p>

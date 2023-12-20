@@ -15,7 +15,7 @@ export default function Reviews() {
                 </p>
             </div>
             <div className="flex items-center lg:gap-20 gap-20 lg:flex-row overflow-scroll">
-                <div className="flex lg:gap-10 gap-1 h-[35rem] w-[65rem]">
+                <div className="flex lg:gap-10 gap-1 h-[33.5rem] w-[65rem]">
                     <ReviewCard />
                     <ReviewCard />
                     <ReviewCard />
