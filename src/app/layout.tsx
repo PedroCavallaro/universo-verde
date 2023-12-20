@@ -1,7 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Judson } from "next/font/google";
-import Header from "../components/Header/Header";
 import { Providers } from "../providers/Providers";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -27,7 +26,6 @@ export default function RootLayout({
                 <body
                     className={`${inter.className} ${judson.variable} flex flex-col`}
                 >
-                    <Header />
                     {children}
                 </body>
             </Providers>

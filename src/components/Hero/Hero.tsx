@@ -18,23 +18,26 @@ export default function Hero() {
                             className="ml-[7rem] relative w-[40rem] h-[45rem] -top-[12rem]  "
                         />
                         <div className="mt-10 flex flex-col gap-5 ">
-                            <p className="text-lg">
+                            <h2 className="text-lg text-center">
                                 Transforme o ambiente com a{" "}
-                                <p>energia da natureza</p>
-                            </p>
-                            <Button className="rounded-full bg-white text-black px-2 text-lg">
+                                <h3 className="flex gap-[0.3rem]">
+                                    <p className="">energia da </p>
+                                    <p className="text-emerald-400">natureza</p>
+                                </h3>
+                            </h2>
+                            <Button className="rounded-full bg-white text-black px-2 text-lg hover:bg-emerald-400 hover:text-white transition-all">
                                 <p>Faça sua encomenda</p>
                             </Button>
                         </div>
                     </div>
                 </div>
-
                 <Image
                     src={"/tl.png"}
                     alt="tl"
                     width={300}
                     height={300}
                     loading="eager"
+                    draggable={false}
                     className="absolute top-0 left-0 z-10"
                 />
                 <Image
@@ -43,6 +46,7 @@ export default function Hero() {
                     width={300}
                     height={300}
                     loading="eager"
+                    draggable={false}
                     className="absolute -bottom-[3rem] left-0 z-10"
                 />
                 <Image
@@ -51,6 +55,7 @@ export default function Hero() {
                     width={200}
                     height={200}
                     loading="eager"
+                    draggable={false}
                     className="absolute  top-0 right-0 z-10"
                 />
                 <Image
@@ -59,6 +64,7 @@ export default function Hero() {
                     width={400}
                     height={400}
                     loading="eager"
+                    draggable={false}
                     className="absolute -bottom-[20rem] right-0 z-10"
                 />
             </div>

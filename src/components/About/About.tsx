@@ -1,9 +1,18 @@
 import bricks from "../../../public/bricks.svg";
 import Image from "next/image";
 import { Button } from "../Button";
-export default function About() {
+import { MutableRefObject } from "react";
+export default function About({
+    aboutRef,
+}: {
+    aboutRef: MutableRefObject<HTMLDivElement | null>;
+}) {
     return (
-        <section className="flex  gap-10 justify-center relative">
+        <section
+            ref={aboutRef}
+            id="asd"
+            className="flex  gap-10 justify-center relative"
+        >
             <div className="flex w-[80%]  ">
                 <div className="w-[50%]">
                     <div className="flex flex-col gap-12 w-[32rem]">
