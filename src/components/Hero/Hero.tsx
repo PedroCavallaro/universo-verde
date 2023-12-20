@@ -9,23 +9,23 @@ export default function Hero() {
                     <h1 className="text-[5.5rem] text-center flex flex-col font-title text-emerald-600 z-10 ">
                         Universo <p>Verde</p>
                     </h1>
-                    <div className="flex gap-10">
+                    <div className="flex flex-col-reverse lg:flex-row gap-10">
                         <Image
                             src={"/fro2.png"}
                             alt="hero"
                             width={1000}
                             height={1000}
-                            className="ml-[7rem] relative w-[40rem] h-[45rem] -top-[12rem]  "
+                            className="lg:ml-[7rem] relative lg:w-[40rem] lg:h-[45rem] bottom-[8rem] lg:-top-[12rem] sm:w-[5rem] sm:h-[5rem]   "
                         />
-                        <div className="mt-10 flex flex-col gap-5 ">
+                        <div className="mt-10 flex flex-col items-center gap-5 ">
                             <h2 className="text-lg text-center">
                                 Transforme o ambiente com a{" "}
-                                <span className="flex gap-[0.3rem]">
+                                <span className="flex gap-[0.3rem] items-center justify-center ">
                                     <p className="">energia da </p>
                                     <p className="text-emerald-400">natureza</p>
                                 </span>
                             </h2>
-                            <Button className="rounded-full bg-white text-black px-2 text-lg hover:bg-emerald-400 hover:text-white transition-all">
+                            <Button className="rounded-full bg-white text-black px-2 text-lg hover:bg-emerald-400 hover:text-white transition-all z-10">
                                 <p>Faça sua encomenda</p>
                             </Button>
                         </div>
@@ -38,7 +38,7 @@ export default function Hero() {
                     height={300}
                     loading="eager"
                     draggable={false}
-                    className="absolute top-0 left-0 z-10"
+                    className="absolute lg:w-[300px] lg:h-[380px] top-0 left-0 lg:z-10 w-[9rem] h-[9rem]"
                 />
                 <Image
                     src={"/fhero1.png"}
@@ -47,7 +47,7 @@ export default function Hero() {
                     height={300}
                     loading="eager"
                     draggable={false}
-                    className="absolute -bottom-[3rem] left-0 z-10"
+                    className="absolute hidden lg:flex lg:w-[300px] lg:h-[726.16px] lg:object-fill lg:-bottom-[3rem]  left-0 z-10 w-[15rem] h-[20rem]"
                 />
                 <Image
                     src={"/tr.png"}
@@ -56,7 +56,7 @@ export default function Hero() {
                     height={200}
                     loading="eager"
                     draggable={false}
-                    className="absolute  top-0 right-0 z-10"
+                    className="absolute   lg:w-[200px] lg:h-[550px] lg:top-0 top-[5.5rem] right-0 lg:z-10 w-[9rem] h-[550px] -z-0"
                 />
                 <Image
                     src={"/br.png"}
@@ -65,7 +65,7 @@ export default function Hero() {
                     height={400}
                     loading="eager"
                     draggable={false}
-                    className="absolute -bottom-[20rem] right-0 z-10"
+                    className="absolute hidden lg:flex lg:w-[375px] lg:h-[700px] -bottom-[15rem] right-0 z-10 h-2 w-2"
                 />
             </div>
         </section>

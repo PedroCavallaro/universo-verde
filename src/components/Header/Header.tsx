@@ -9,13 +9,13 @@ export default function Header({
         handleClick(param);
     };
     return (
-        <header className="flex shadow-xl  px-20 h-[100px] gap-28 items-center text-lg bg-lime-100 ">
-            <div className="ml-[10rem] flex justify-between w-[80%] px-12">
-                <h1>Logo</h1>
+        <header className="flex shadow-xl  lg:px-20 h-[100px] gap-28 items-center text-lg bg-lime-100 ">
+            <div className="lg:ml-[10rem] flex lg:justify-between justify-center items-center w-full gap-2 lg:w-[80%] lg:px-12">
+                <h1 className="hidden lg:flex">Logo</h1>
                 <nav>
-                    <ul className="flex gap-4 relative ml-20">
+                    <ul className="flex gap-4 relative lg:ml-20">
                         <li
-                            className="cursor-pointer hover:text-zinc-500 select-none"
+                            className="cursor-pointer hover:text-zinc-500 select-none z-20"
                             onClick={() => scrollTo(0)}
                         >
                             Produtos

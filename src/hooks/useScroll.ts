@@ -10,18 +10,13 @@ export const useScroll = () => {
     const productRef = useRef<null | HTMLDivElement>(null);
     const contactRef = useRef<null | HTMLDivElement>(null);
 
+    const scrollFunctions = [
+        () => productRef.current?.scrollIntoView({ behavior: "smooth" }),
+        () => contactRef.current?.scrollIntoView({ behavior: "smooth" }),
+        () => aboutRef.current?.scrollIntoView({ behavior: "smooth" }),
+    ];
     const handleClick = (param: ScrollEnum) => {
-        switch (param) {
-            case ScrollEnum.produtos:
-                productRef.current?.scrollIntoView({ behavior: "smooth" });
-                break;
-            case ScrollEnum.contato:
-                contactRef.current?.scrollIntoView({ behavior: "smooth" });
-                break;
-            case ScrollEnum.sobre:
-                aboutRef.current?.scrollIntoView({ behavior: "smooth" });
-                break;
-        }
+        return scrollFunctions[param]();
     };
 
     return {
