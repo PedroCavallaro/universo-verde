@@ -2,7 +2,7 @@ import BenefitCard from "./BenefitCard";
 
 export default function Benefits() {
     return (
-        <section className="flex  gap-10 justify-center relative">
+        <section className="flex  gap-10 justify-center relative flex-wrap">
             <div className="flex flex-col w-[80%] gap-10  ">
                 <h2 className="text-3xl flex gap-2 font-extrabold">
                     Por que nos

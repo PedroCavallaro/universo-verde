@@ -10,11 +10,11 @@ export const useScroll = () => {
     const productRef = useRef<null | HTMLDivElement>(null);
     const contactRef = useRef<null | HTMLDivElement>(null);
 
-    const scrollFunctions = [
-        () => productRef.current?.scrollIntoView({ behavior: "smooth" }),
-        () => contactRef.current?.scrollIntoView({ behavior: "smooth" }),
-        () => aboutRef.current?.scrollIntoView({ behavior: "smooth" }),
-    ];
+    const scrollFunctions = {
+        "0": () => productRef.current?.scrollIntoView({ behavior: "smooth" }),
+        "1": () => contactRef.current?.scrollIntoView({ behavior: "smooth" }),
+        "2": () => aboutRef.current?.scrollIntoView({ behavior: "smooth" }),
+    };
     const handleClick = (param: ScrollEnum) => {
         return scrollFunctions[param]();
     };

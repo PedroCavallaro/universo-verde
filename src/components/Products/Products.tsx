@@ -11,7 +11,7 @@ export default function Products({
 }) {
     return (
         <section ref={productRef} className="flex flex-col gap-5 ">
-            <h2 className="flex font-extrabold gap-2 items-center justify-center text-center text-[32px] ">
+            <h2 className="flex font-extrabold gap-2 items-center justify-center text-center text-2xl lg:text-[32px] ">
                 Ultimos <p className="text-emerald-400">produtos</p>
             </h2>
             <div className="relative">
@@ -20,10 +20,10 @@ export default function Products({
                     alt="a"
                     height={200}
                     width={200}
-                    className="absolute ml-10 -z-10 -top-5"
+                    className="absolute lg:w-[200px] lg:h-[226px] lg:ml-10 -z-10 -top-5 w-[150px] h-[150px]"
                 />
             </div>
-            <div className="flex flex-col gap-10 ">
+            <div className="flex flex-col lg:gap-10 gap-5 ">
                 <ProductRow>
                     <ProductCard isBigger={true} />
                     <ProductCard isBigger={false} />

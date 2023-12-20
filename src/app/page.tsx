@@ -20,7 +20,7 @@ export default function Home() {
     return (
         <>
             <Header handleClick={handleClick} />
-            <main className="flex flex-col gap-20">
+            <main className="flex flex-col lg:gap-20 gap-12 overflow-hidden">
                 <Hero />
                 <Products productRef={productRef} />
                 <ProductModal />
