@@ -1,1 +1,2 @@
-<h2>Deply: <a href="https://universo-verde.vercel.app">https://universo-verde.vercel.app</a> /</h2>
+<h2>Deploy</h2>
+<a href="https://universo-verde.vercel.app">https://universo-verde.vercel.app</a>
