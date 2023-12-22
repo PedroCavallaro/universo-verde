@@ -15,20 +15,20 @@ export default function Header({
                 <nav>
                     <ul className="flex gap-4 relative lg:ml-20">
                         <li
-                            className="cursor-pointer hover:text-zinc-500 select-none z-20"
-                            onClick={() => scrollTo(0)}
+                            className="cursor-pointer hover:text-zinc-500 select-none z-20 "
+                            onClick={() => scrollTo(ScrollEnum.produtos)}
                         >
                             Produtos
                         </li>
                         <li
                             className="cursor-pointer hover:text-zinc-500 select-none"
-                            onClick={() => scrollTo(2)}
+                            onClick={() => scrollTo(ScrollEnum.sobre)}
                         >
                             Sobre nós
                         </li>
                         <li
                             className="cursor-pointer hover:text-zinc-500 select-none"
-                            onClick={() => scrollTo(1)}
+                            onClick={() => scrollTo(ScrollEnum.contato)}
                         >
                             Galeria
                         </li>
