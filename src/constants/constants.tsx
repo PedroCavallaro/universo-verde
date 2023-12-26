@@ -15,12 +15,12 @@ export const benefits: Array<BeneftiCard> = [
     },
     {
         title: "Entrega segura",
-        text: "Porque reconhecemos a importância de seu pedido e nos comprometemos a garantir que ele chegue até você com cuidado e integridade.",
+        text: "Reconhecemos a importância de seu pedido e nos comprometemos a garantir que ele chegue até você com cuidado e integridade.",
         icon: <FaShippingFast color={"#FFFFFF"} size={20} />,
     },
     {
         title: "Contato direto com o vendedor",
-        text: "Porque valorizamos a proximidade e a transparência em nossa relação com você. Estamos sempre disponíveis para esclarecer dúvidas ou oferecer informações adicionais",
+        text: "Valorizamos a proximidade e a transparência em nossa relação com você. Estamos sempre disponíveis para esclarecer dúvidas ",
         icon: <GiTalk color={"#FFFFFF"} size={20} />,
     },
 ];

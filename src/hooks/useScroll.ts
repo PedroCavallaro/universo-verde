@@ -12,8 +12,8 @@ export const useScroll = () => {
 
     const scrollFunctions = {
         "0": () => productRef.current?.scrollIntoView({ behavior: "smooth" }),
-        "1": () => contactRef.current?.scrollIntoView({ behavior: "smooth" }),
-        "2": () => aboutRef.current?.scrollIntoView({ behavior: "smooth" }),
+        "1": () => aboutRef.current?.scrollIntoView({ behavior: "smooth" }),
+        "2": () => contactRef.current?.scrollIntoView({ behavior: "smooth" }),
     };
     const handleClick = (param: ScrollEnum) => {
         return scrollFunctions[param]();

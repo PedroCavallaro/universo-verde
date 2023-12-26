@@ -5,7 +5,7 @@ export default function Footer() {
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a
-                            href="https://flowbite.com/"
+                            href="https://www.instagram.com/universoverde.bp/"
                             className="flex items-center gap-2"
                         >
                             <div className="h-10 w-10 bg-black text-white">
@@ -24,7 +24,7 @@ export default function Footer() {
                             <ul className="text-black  font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://flowbite.com/"
+                                        href="https://www.instagram.com/universoverde.bp/"
                                         className="hover:underline"
                                     >
                                         Instagram

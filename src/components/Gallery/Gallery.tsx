@@ -2,6 +2,7 @@ import { MutableRefObject } from "react";
 import Section from "../Section";
 import GalleryCard from "./GalleryCard";
 import { Button } from "../Button";
+import Link from "next/link";
 
 export default function Gallery({
     galleryRef,
@@ -27,10 +28,13 @@ export default function Gallery({
                 <GalleryCard />
             </div>
             <div className="flex justify-end">
-                <Button className="rounded-full flex gap-2 justify-center items-center h-10 px-2 bg-white text-black  text-lg hover:bg-emerald-400 hover:text-white transition-all">
+                <Link
+                    href={"https://www.instagram.com/universoverde.bp/"}
+                    className="rounded-full flex gap-2 justify-center items-center h-10 px-2 bg-white text-black  text-lg hover:bg-emerald-400 hover:text-white transition-all"
+                >
                     <p>Ver mais</p>
                     <p>{"->"}</p>
-                </Button>
+                </Link>
             </div>
         </Section>
     );
